@@ -3,28 +3,29 @@
  */
 export const siteData = {
   "title": "Zbot 文档",
-  "description": "QQ魔方机器人",
+  "description": "裕鑫赞助",
   "base": "/",
   "pages": [
     {
       "title": "Home",
       "frontmatter": {
         "home": true,
+        "heroImage": "/yuxin.png",
         "actionText": "快速上手 →",
         "actionLink": "/guide/",
         "footer": "By lz1998",
         "features": [
           {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+            "title": "赞助",
+            "details": "裕鑫。"
           },
           {
-            "title": "Vue 驱动",
-            "details": "享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。"
+            "title": "QQ交流群号",
+            "details": "374735267。"
           },
           {
-            "title": "高性能",
-            "details": "VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。"
+            "title": "bug反馈",
+            "details": "QQ875543533。"
           }
         ]
       },
@@ -34,42 +35,167 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "WCA",
+      "title": "CUBEPIC",
       "frontmatter": {},
-      "regularPath": "/wca/",
-      "relativePath": "wca/README.md",
-      "key": "v-17fb8e8b",
-      "path": "/wca/",
+      "regularPath": "/cubepic/",
+      "relativePath": "cubepic/README.md",
+      "key": "v-c4575e6a",
+      "path": "/cubepic/",
       "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
         {
           "level": 2,
           "title": "使用方法",
           "slug": "使用方法"
         },
         {
-          "level": 2,
-          "title": "示例",
-          "slug": "示例"
+          "level": 3,
+          "title": "生成魔方图",
+          "slug": "生成魔方图"
         }
       ]
     },
     {
-      "title": "开关",
+      "title": "CUBER",
       "frontmatter": {},
-      "regularPath": "/switch/",
-      "relativePath": "switch/README.md",
-      "key": "v-7f9d290d",
-      "path": "/switch/",
+      "regularPath": "/cuber/",
+      "relativePath": "cuber/README.md",
+      "key": "v-3e0f1c3b",
+      "path": "/cuber/",
       "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
         {
           "level": 2,
           "title": "使用方法",
           "slug": "使用方法"
         },
         {
+          "level": 3,
+          "title": "根据名字查询魔友报名的比赛",
+          "slug": "根据名字查询魔友报名的比赛"
+        }
+      ]
+    },
+    {
+      "title": "管理",
+      "frontmatter": {},
+      "regularPath": "/admin/",
+      "relativePath": "admin/README.md",
+      "key": "v-6edd5bd7",
+      "path": "/admin/",
+      "headers": [
+        {
           "level": 2,
-          "title": "示例",
-          "slug": "示例"
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "使用方法",
+          "slug": "使用方法"
+        },
+        {
+          "level": 3,
+          "title": "添加管理员",
+          "slug": "添加管理员"
+        },
+        {
+          "level": 3,
+          "title": "删除管理员",
+          "slug": "删除管理员"
+        },
+        {
+          "level": 3,
+          "title": "列出管理员",
+          "slug": "列出管理员"
+        },
+        {
+          "level": 3,
+          "title": "踢人",
+          "slug": "踢人"
+        },
+        {
+          "level": 3,
+          "title": "踢人(禁止加群)",
+          "slug": "踢人-禁止加群"
+        },
+        {
+          "level": 3,
+          "title": "禁言",
+          "slug": "禁言"
+        },
+        {
+          "level": 3,
+          "title": "解除禁言",
+          "slug": "解除禁言"
+        }
+      ]
+    },
+    {
+      "title": "打乱",
+      "frontmatter": {},
+      "regularPath": "/scramble/",
+      "relativePath": "scramble/README.md",
+      "key": "v-23eb84ad",
+      "path": "/scramble/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "使用方法",
+          "slug": "使用方法"
+        },
+        {
+          "level": 3,
+          "title": "获取2阶魔方打乱",
+          "slug": "获取2阶魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取3阶魔方打乱",
+          "slug": "获取3阶魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取4阶魔方打乱",
+          "slug": "获取4阶魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取5阶魔方打乱",
+          "slug": "获取5阶魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取金字塔魔方打乱",
+          "slug": "获取金字塔魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取斜转魔方打乱",
+          "slug": "获取斜转魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取魔表魔方打乱",
+          "slug": "获取魔表魔方打乱"
+        },
+        {
+          "level": 3,
+          "title": "获取SQ-1魔方打乱",
+          "slug": "获取sq-1魔方打乱"
         }
       ]
     },
@@ -94,22 +220,132 @@ export const siteData = {
       ]
     },
     {
-      "title": "打乱",
+      "title": "COMP",
       "frontmatter": {},
-      "regularPath": "/scramble/",
-      "relativePath": "scramble/README.md",
-      "key": "v-23eb84ad",
-      "path": "/scramble/",
+      "regularPath": "/comp/",
+      "relativePath": "comp/README.md",
+      "key": "v-29f2df6d",
+      "path": "/comp/",
       "headers": [
         {
           "level": 2,
-          "title": "魔方种类",
-          "slug": "魔方种类"
+          "title": "介绍",
+          "slug": "介绍"
         },
         {
           "level": 2,
-          "title": "示例",
-          "slug": "示例"
+          "title": "使用方法",
+          "slug": "使用方法"
+        },
+        {
+          "level": 3,
+          "title": "查询近期赛事列表",
+          "slug": "查询近期赛事列表"
+        },
+        {
+          "level": 3,
+          "title": "查询某赛事详细信息",
+          "slug": "查询某赛事详细信息"
+        }
+      ]
+    },
+    {
+      "title": "欢迎",
+      "frontmatter": {},
+      "regularPath": "/welcome/",
+      "relativePath": "welcome/README.md",
+      "key": "v-1ebfd8f1",
+      "path": "/welcome/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "使用方法",
+          "slug": "使用方法"
+        },
+        {
+          "level": 3,
+          "title": "设置欢迎语",
+          "slug": "设置欢迎语"
+        },
+        {
+          "level": 2,
+          "title": "特殊含义",
+          "slug": "特殊含义"
+        }
+      ]
+    },
+    {
+      "title": "WCA",
+      "frontmatter": {},
+      "regularPath": "/wca/",
+      "relativePath": "wca/README.md",
+      "key": "v-17fb8e8b",
+      "path": "/wca/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "使用方法",
+          "slug": "使用方法"
+        },
+        {
+          "level": 3,
+          "title": "根据WCA ID精确查询",
+          "slug": "根据wca-id精确查询"
+        },
+        {
+          "level": 3,
+          "title": "根据关键词查询",
+          "slug": "根据关键词查询"
+        }
+      ]
+    },
+    {
+      "title": "开关",
+      "frontmatter": {},
+      "regularPath": "/switch/",
+      "relativePath": "switch/README.md",
+      "key": "v-7f9d290d",
+      "path": "/switch/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "介绍",
+          "slug": "介绍"
+        },
+        {
+          "level": 2,
+          "title": "使用方法",
+          "slug": "使用方法"
+        },
+        {
+          "level": 3,
+          "title": "整体启用",
+          "slug": "整体启用"
+        },
+        {
+          "level": 3,
+          "title": "整体停用",
+          "slug": "整体停用"
+        },
+        {
+          "level": 3,
+          "title": "启用某功能",
+          "slug": "启用某功能"
+        },
+        {
+          "level": 3,
+          "title": "停用某功能",
+          "slug": "停用某功能"
         }
       ]
     }
@@ -121,9 +357,15 @@ export const siteData = {
         "children": [
           "/switch/",
           "/scramble/",
-          "/wca/"
+          "/wca/",
+          "/comp/",
+          "/cuber/",
+          "/cubepic/",
+          "/admin/",
+          "/welcome/"
         ]
       }
-    ]
+    ],
+    "sidebarDepth": 3
   }
 }

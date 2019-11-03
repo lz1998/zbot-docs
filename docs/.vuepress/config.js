@@ -1,6 +1,7 @@
 module.exports = {
+    dest:'./dist',
     title: 'Zbot 文档',
-    description: 'QQ魔方机器人',
+    description: '裕鑫赞助',
     themeConfig: {
         sidebar:[
             {
@@ -8,10 +9,16 @@ module.exports = {
                 children: [
                     '/switch/',
                     '/scramble/',
-                    '/wca/'
+                    '/wca/',
+                    '/comp/',
+                    '/cuber/',
+                    '/cubepic/',
+                    '/admin/',
+                    '/welcome/'
                 ]
             }
-        ]
+        ],
+        sidebarDepth:3
     }
 }
 

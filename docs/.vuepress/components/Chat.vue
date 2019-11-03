@@ -1,12 +1,10 @@
 <template>
     <div class="chat">
-        <section>
-            <div v-for="msg in msgList" class="bubble-wrapper" :class="msg.position">
-                <div class="bubble">
-                    <p v-html="msg.msg.replace(/\n/g, '<br/>').replace(/ /g, '&nbsp;')"></p>
-                </div>
+        <div v-for="msg in msgList" class="bubble-wrapper" :class="msg.position">
+            <div class="bubble">
+                <p v-html="msg.msg.replace(/\n/g, '<br/>').replace(/ /g, '&nbsp;')"></p>
             </div>
-        </section>
+        </div>
 
     </div>
 </template>
@@ -15,21 +13,26 @@
     export default {
         name: "Chat",
         props: {
+            // TODO 怎么传参
             msgList: {
                 type: Array,
                 default: () => {
                     return [
                         {
                             "position": "right",
-                            "msg": ".赛事 1"
+                            "msg": "启用功能1"
                         },
                         {
                             "position": "left",
-                            "msg": "2019WCA泉州魔方公开赛\n2019-08-25\n福建泉州丰泽区东海大街嘉吉北路1号东海湾实验学校大礼堂\nhttps://cubingchina.com/competition/Quanzhou-Open-2019"
+                            "msg": "启用成功"
                         },
                         {
                             "position": "right",
-                            "msg": ".赛事 1"
+                            "msg": "停用功能1"
+                        },
+                        {
+                            "position": "left",
+                            "msg": "停用成功"
                         }
                     ]
                 }
@@ -43,7 +46,7 @@
         box-sizing: border-box;
     }
 
-    section {
+    .chat {
         background-color: #eee;
         width: calc(100% - 10px);
         margin: 17px auto;
@@ -51,23 +54,23 @@
         border-radius: 14px;
     }
 
-    section:first-child {
+    .chat:first-child {
         margin-top: 0;
     }
 
-    section:last-child {
+    .chat:last-child {
         margin-bottom: 0;
     }
 
-    section p {
+    .chat p {
         line-height: 1.5;
     }
 
-    section h2 {
+    .chat h2 {
         margin-top: 0;
     }
 
-    section p:last-child {
+    .chat p:last-child {
         margin: 0;
     }
 
