@@ -5,16 +5,23 @@ module.exports = {
     themeConfig: {
         sidebar:[
             {
-                title: '目录',
+                title: '功能',
                 children: [
-                    '/switch/',
-                    '/scramble/',
-                    '/wca/',
-                    '/comp/',
-                    '/cuber/',
-                    '/cubepic/',
-                    '/admin/',
-                    '/welcome/'
+                    '/guide/switch.md',
+                    '/guide/scramble.md',
+                    '/guide/wca.md',
+                    '/guide/comp.md',
+                    '/guide/cuber.md',
+                    '/guide/cubepic.md',
+                    '/guide/admin.md',
+                    '/guide/welcome.md',
+                    '/guide/learn.md'
+                ]
+            },
+            {
+                title:"附录",
+                children:[
+                    '/appendices/botml.md'
                 ]
             }
         ],
