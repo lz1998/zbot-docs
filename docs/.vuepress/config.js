@@ -1,6 +1,6 @@
 module.exports = {
     dest:'./dist',
-    title: 'Zbot 文档',
+    title: 'Zbots 文档',
     description: '裕鑫赞助',
     themeConfig: {
         sidebar:[
@@ -15,6 +15,8 @@ module.exports = {
                     '/guide/cubepic.md',
                     '/guide/admin.md',
                     '/guide/welcome.md',
+                    '/guide/express.md',
+                    '/guide/picture.md',
                     '/guide/learn.md'
                 ]
             },
