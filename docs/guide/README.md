@@ -88,7 +88,11 @@ Zbot 是一个QQ魔方机器人，可在群内自动回复指令。
 * [新增/修改指令](/guide/learn.md#新增-修改指令)
 * [设置指令不回复](/guide/learn.md#设置指令不回复)
 * [指令恢复默认](/guide/learn.md#指令恢复默认)
+* [清空指令](/guide/learn.md#清空指令)
 
+**复读功能**
+
+* [自动复读](/guide/repeat.md#自动复读)
 
 
 ### 附录

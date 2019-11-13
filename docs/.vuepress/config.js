@@ -17,7 +17,8 @@ module.exports = {
                     '/guide/welcome.md',
                     '/guide/express.md',
                     '/guide/picture.md',
-                    '/guide/learn.md'
+                    '/guide/learn.md',
+                    '/guide/repeat.md'
                 ]
             },
             {
