@@ -1,7 +1,7 @@
 module.exports = {
     dest:'./dist',
     title: 'Zbots 文档',
-    description: '裕鑫赞助',
+    description: '魔方机器人',
     themeConfig: {
         sidebar:[
             {
